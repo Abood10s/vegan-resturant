@@ -22,6 +22,10 @@
     color: #FFFFFC;
 }
 
+.form-btn input::placeholder {
+    color: #FFFFFC;
+}
+
 .form-cont {
     display: grid;
     grid-template-columns: 1fr;

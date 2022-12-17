@@ -4,9 +4,9 @@ import "./reviews_blog.css";
 import guy from "../../assets/guy.png";
 import girl from "../../assets/girl.png";
 import BlogCard from "../../components/BlogCard/BlogCard";
-import blog1 from "../../assets/blog1.png";
-import blog2 from "../../assets/blog2.png";
-import blog3 from "../../assets/blog3.png";
+import blog1 from "../../assets/blog images/blog1.png";
+import blog2 from "../../assets/blog images/blog2.png";
+import blog3 from "../../assets/blog images/blog3.png";
 
 const Reviews_Blog = () => {
   return (

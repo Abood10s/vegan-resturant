@@ -48,3 +48,8 @@ label {
     background-color: #333539;
     padding: 5px;
 }
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+}

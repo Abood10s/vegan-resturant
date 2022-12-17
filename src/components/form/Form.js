@@ -12,7 +12,11 @@ const Form = () => {
           <input type="text" placeholder="Your Phone Number" />
         </div>
         <div className="row-2">
-          <input type="text" placeholder="Select Date" />
+          <input
+            type="datetime-local"
+            placeholder="Select Date"
+            value="2022-12-17T19:30"
+          />
           <input type="text" placeholder="Time Slot" />
           <input type="text" placeholder="Occupancy" />
         </div>

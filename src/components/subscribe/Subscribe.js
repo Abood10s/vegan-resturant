@@ -1,6 +1,6 @@
 import React from "react";
 import "./subscribe.css";
-import msg2 from "../../assets/msg2.png";
+import msg2 from "../../assets/icons/msg2.png";
 import SecondaryBtn from "../Button/SecondaryBtn";
 const Subscribe = () => {
   return (

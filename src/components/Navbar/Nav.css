@@ -32,3 +32,8 @@ i {
 .tabs li:last-child {
     margin-left: 1rem;
 }
+
+.tabs li:hover {
+    color: #A08040;
+    transition: all ease 0.2s;
+}

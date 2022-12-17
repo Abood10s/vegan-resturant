@@ -2,9 +2,9 @@ import React from "react";
 import Join from "../../components/join/Join";
 import Cooking from "../../components/Cooking/Cooking";
 import Stats from "../../components/stats/Stats";
-import stat1 from "../../assets/stats1.png";
-import stat2 from "../../assets/stats2.png";
-import stat3 from "../../assets/stats3.png";
+import stat1 from "../../assets/stats images/stats1.png";
+import stat2 from "../../assets/stats images/stats2.png";
+import stat3 from "../../assets/stats images/stats3.png";
 import "./advertise.css";
 const Advertise = () => {
   return (

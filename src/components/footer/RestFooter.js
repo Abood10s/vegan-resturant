@@ -1,12 +1,12 @@
 import React from "react";
 import "./restfooter.css";
 import logo from "../../assets/logo.png";
-import insta from "../../assets/insta.png";
-import twitter from "../../assets/twitter.png";
-import youtube from "../../assets/youtube.png";
-import msg from "../../assets/msg.png";
-import location from "../../assets/location.png";
-import phone from "../../assets/phone.png";
+import insta from "../../assets/icons/insta.png";
+import twitter from "../../assets/icons/twitter.png";
+import youtube from "../../assets/icons/youtube.png";
+import msg from "../../assets/icons/msg.png";
+import location from "../../assets/icons/location.png";
+import phone from "../../assets/icons/phone.png";
 
 const RestFooter = () => {
   return (
@@ -30,7 +30,7 @@ const RestFooter = () => {
           </div>
         </div>
         <div className="column-2">
-          <p>Other Links</p>
+          <p className="footer-heading">Other Links</p>
           <ul>
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
@@ -40,7 +40,7 @@ const RestFooter = () => {
           </ul>
         </div>
         <div className="column-3">
-          <p>Contact Us</p>
+          <p className="footer-heading">Contact Us</p>
           <div className="col3-contact">
             <div>
               <img src={msg} alt="email" />
