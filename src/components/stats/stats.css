@@ -1,0 +1,17 @@
+.stat-cont {
+    display: flex;
+    gap: 1rem;
+    padding: 2em 0;
+}
+
+.stat-num {
+    color: #FFCE6D;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.stat-title {
+    color: #FFFFFC;
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.copy-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFC;
+    background-color: rgba(16, 20, 24, 0.7);
+    padding: 1em 0;
+}

@@ -1,0 +1,31 @@
+.join-all {
+    background-color: rgba(16, 20, 24, 0.7);
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.join-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    color: #FFFFFC;
+    margin: 0 auto;
+}
+
+.join-p {
+    color: #FFCE6D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.join-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+}
+
+.join-txt h3 {
+    font-size: 36px;
+}

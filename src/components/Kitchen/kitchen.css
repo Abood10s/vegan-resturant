@@ -1,0 +1,38 @@
+.ket-all-cont {
+    margin: 4em auto 2em auto;
+}
+
+.ket-cont {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.ket-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ket-title {
+    font-weight: bold;
+}
+
+.ket-par {
+    font-size: 14px;
+}
+
+.ket-line {
+    height: 1px;
+    background-color: #FFCE6D;
+    width: 100px;
+}
+
+.ket-cost {
+    color: #FFCE6D;
+    font-weight: bold;
+}

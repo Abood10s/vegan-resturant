@@ -1,0 +1,33 @@
+.btn {
+    display: block;
+    height: 100%;
+    padding: 1em 6em;
+    cursor: pointer;
+    position: relative;
+    background-color: #A08040;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn::before {
+    content: "";
+    height: 2px;
+    background-color: #FFFFFF;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15%;
+}
+
+.btn::after {
+    content: "";
+    height: 2px;
+    background-color: #FFFFFF;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+}

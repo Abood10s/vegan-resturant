@@ -1,0 +1,13 @@
+.sec-btn {
+    background-color: transparent;
+    border: 2px solid #FFFCCC;
+    padding: 0.7rem 3em;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease 0.2s;
+}
+
+.sec-btn:hover {
+    background-color: #A08040;
+}

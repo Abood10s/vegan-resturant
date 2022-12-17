@@ -1,0 +1,40 @@
+.about-cont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2em auto;
+    gap: 7em;
+}
+
+.about-text {
+    color: #FFFFFC;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.abt-txt {
+    font-size: 14px;
+}
+
+.about-text .sec-title {
+    font-weight: bold;
+}
+
+.about-text h3 {
+    color: #FFCE6D;
+    margin: 1rem 0;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+
+.about-img {
+    height: 60%;
+}
+
+.about-img img {
+    height: 100%
+}

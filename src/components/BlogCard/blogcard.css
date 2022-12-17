@@ -1,0 +1,35 @@
+.blog-card-cont {
+    color: #FFFFFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16, 20, 24, 0.7);
+    padding: 1rem 0.5rem;
+    width: 390px;
+}
+
+.border {
+    display: inline-block;
+    border-bottom: 1px solid #FFCE6D;
+    padding: 2px 0;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.blog-txt {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 280px
+}

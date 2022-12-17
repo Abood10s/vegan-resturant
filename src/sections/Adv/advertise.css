@@ -1,0 +1,6 @@
+.adv-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(16, 20, 24, 0.7);
+}

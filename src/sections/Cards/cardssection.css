@@ -1,0 +1,26 @@
+.all-cont {
+    background-color: rgba(16, 20, 24, 0.7);
+    ;
+    padding: 1rem 1em;
+}
+
+.cards-cont {
+    width: 100%;
+    color: #FFFFFC;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardsec-txt {
+    width: 70%;
+    margin: 1rem auto 3rem auto;
+    text-align: center;
+    color: #FFFFFC;
+}
+
+.cardsec-txt h4 {
+    margin-bottom: 1rem;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    color: #FFCE6D;
+}

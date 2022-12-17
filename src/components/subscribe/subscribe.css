@@ -1,0 +1,37 @@
+.subs-cont {
+    margin: 3em 0;
+    color: #FFFFFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5em;
+}
+
+.col-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sub-input {
+    display: block;
+    height: 45px;
+    padding: 0 7em 0 1rem;
+    outline: none;
+    border: 1px solid #FFFFCC;
+    background-color: transparent;
+    color: #FFFFCC;
+}
+
+.sub-input::placeholder {
+    color: #FFFFFC;
+}
+
+.sub-btn {
+    padding: 0 2em 0 1em;
+    height: 45px;
+    border: 1px solid #FFFFCC;
+    background-color: transparent;
+    color: #FFFFFC;
+    font-weight: bold;
+}

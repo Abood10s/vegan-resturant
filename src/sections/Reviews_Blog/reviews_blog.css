@@ -1,0 +1,17 @@
+.reviews {
+    width: 1820px;
+    margin-left: -12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+}
+
+.blog {
+    margin: 4em 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 2em;
+    padding: 2em;
+}

@@ -1,0 +1,27 @@
+.card {
+    background-color: rgba(160, 128, 64, 0.3);
+    border: 1px dashed #FFCE6D;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4em 0.5rem 5em 0.5rem;
+}
+
+.card-body {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}

@@ -1,0 +1,22 @@
+.main-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 40%;
+    text-align: center;
+    z-index: 4;
+}
+
+.main-title {
+    color: #FFFCCC;
+    font-size: 40px;
+    width: 70%;
+    font-weight: 900;
+}
+
+.main-txt>p {
+    color: #fff;
+    font-weight: bold;
+}
