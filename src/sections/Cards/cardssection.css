@@ -1,6 +1,5 @@
 .all-cont {
     background-color: rgba(16, 20, 24, 0.7);
-    ;
     padding: 1rem 1em;
 }
 
@@ -23,4 +22,13 @@
     font-family: 'Dancing Script';
     font-size: 30px;
     color: #FFCE6D;
+}
+
+@media screen and (max-width: 900px) {
+    .cards-cont {
+        flex-direction: column;
+        width: 50%;
+        gap: 1rem;
+        margin: 0 auto;
+    }
 }

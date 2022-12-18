@@ -79,3 +79,18 @@
     height: 15px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+    .all-form {
+        top: 95%;
+        text-align: center;
+    }
+    .row-1,
+    .row-2 {
+        grid-template-columns: 1fr;
+    }
+    .btn-div {
+        margin: auto;
+        width: 100%;
+    }
+}

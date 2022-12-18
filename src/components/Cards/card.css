@@ -25,3 +25,10 @@
 p {
     font-size: 14px;
 }
+
+@media screen and (max-width: 900px) {
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+}

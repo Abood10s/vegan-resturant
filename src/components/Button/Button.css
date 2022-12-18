@@ -36,3 +36,29 @@
 .btn:hover {
     background-color: #6d5628;
 }
+
+@media screen and (max-width: 850px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+    .btn::before {
+        content: "";
+        height: 2px;
+        background-color: #FFFFFF;
+        width: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15%;
+    }
+    .btn::after {
+        content: "";
+        height: 2px;
+        background-color: #FFFFFF;
+        width: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15%;
+    }
+}

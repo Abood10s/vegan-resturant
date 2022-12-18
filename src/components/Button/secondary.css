@@ -11,3 +11,9 @@
 .sec-btn:hover {
     background-color: #A08040;
 }
+
+@media screen and (max-width: 900px) {
+    .sec-btn {
+        padding: 0.7rem 2rem;
+    }
+}

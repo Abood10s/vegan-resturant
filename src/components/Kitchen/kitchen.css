@@ -36,3 +36,10 @@
     color: #FFCE6D;
     font-weight: bold;
 }
+
+@media screen and (max-width: 850px) {
+    .ket-cont {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}

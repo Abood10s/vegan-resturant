@@ -20,9 +20,9 @@ const Form = () => {
           <input type="text" placeholder="Time Slot" />
           <input type="text" placeholder="Occupancy" />
         </div>
-      </div>
-      <div className="btn-div">
-        <button className="form-btn">Book Now</button>
+        <div className="btn-div">
+          <button className="form-btn">Book Now</button>
+        </div>
       </div>
     </div>
   );
