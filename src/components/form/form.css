@@ -1,96 +1,118 @@
-.all-form {
-    width: 75%;
-    margin: auto;
-    background-color: rgba(16, 20, 24, 1);
-    padding: 1.5em 1em;
-    position: relative;
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    z-index: 99;
-    transition: display ease-in 0.3s;
-}
-
-.form-cont input {
-    outline: none;
-    height: 50px;
-    border: 1px solid #FFCE6D;
-    background-color: transparent;
-    padding: 0 1em;
-    caret-color: #FFCE6D;
-    color: #FFFFFC;
-}
-
-.form-btn input::placeholder {
-    color: #FFFFFC;
-}
-
-.form-cont {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    width: 80%;
-    margin: auto;
-}
-
-.row-1 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1em;
-}
-
-.row-2 {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.form-btn {
-    border: 1px solid #FFCE6D;
-    height: 50px;
-    padding: 1rem 6rem;
-    background-color: transparent;
-    color: #FFFFFC;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.form-btn:focus .all-form {
-    display: none;
-}
-
-.form-btn:hover {
-    background-color: #A08040;
-}
-
-.btn-div {
-    width: 30%;
-    margin: 2rem auto;
-}
-
-.close-form {
-    position: absolute;
-    top: 15px;
-    z-index: 989;
-    right: 15px;
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 850px) {
     .all-form {
-        top: 95%;
-        text-align: center;
-    }
-    .row-1,
-    .row-2 {
-        grid-template-columns: 1fr;
-    }
-    .btn-div {
+        width: 75%;
         margin: auto;
-        width: 100%;
+        background-color: rgba(16, 20, 24, 1);
+        padding: 1.5em 1em;
+        position: relative;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        transition: display ease-in 0.3s;
     }
-}
+    
+    .form-cont input {
+        outline: none;
+        height: 50px;
+        border: 1px solid #FFCE6D;
+        background-color: transparent;
+        padding: 0 1em;
+        caret-color: #FFCE6D;
+        color: #FFFFFC;
+    }
+    
+    .form-btn input::placeholder {
+        color: #FFFFFC;
+    }
+    
+    .form-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .row-1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1em;
+    }
+    
+    .row-2 {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .form-btn {
+        border: 1px solid #FFCE6D;
+        height: 50px;
+        padding: 1rem 6rem;
+        background-color: transparent;
+        color: #FFFFFC;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .form-btn:focus .all-form {
+        display: none;
+    }
+    
+    .form-btn:hover {
+        background-color: #A08040;
+    }
+    
+    .btn-div {
+        width: 35%;
+        margin: 2rem auto;
+    }
+    
+    .close-form {
+        position: absolute;
+        top: 15px;
+        z-index: 989;
+        right: 15px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 850px) {
+        .all-form {
+            top: 100%;
+            text-align: center;
+        }
+        .row-1,
+        .row-2 {
+            grid-template-columns: 1fr;
+        }
+        .btn-div {
+            margin: auto;
+            width: 100%;
+        }
+    }
+    
+    @media screen and (min-width: 850px) {
+        .all-form {
+            top: 78%;
+            text-align: center;
+        }
+        .btn-div {
+            margin: auto;
+        }
+        .form-btn {
+            padding: 0.5rem 4rem;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .btn-div {
+            margin: auto;
+        }
+        .form-btn {
+            padding: 0.5rem 2rem;
+        }
+    }

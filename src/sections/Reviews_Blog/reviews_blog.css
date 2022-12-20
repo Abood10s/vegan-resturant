@@ -16,6 +16,12 @@
     padding: 2em;
 }
 
+@media screen and (max-width: 1160px) {
+    .blog {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .blog {
         grid-template-columns: 1fr;

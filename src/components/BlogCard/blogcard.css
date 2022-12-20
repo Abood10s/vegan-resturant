@@ -6,7 +6,7 @@
     align-items: center;
     background-color: rgba(16, 20, 24, 0.7);
     padding: 1rem 0.5rem;
-    width: 390px;
+    width: fit-content;
 }
 
 .border {
@@ -56,4 +56,10 @@
 
 .border:hover::after {
     height: 100%;
+}
+
+@media screen and (max-width: 860px) {
+    .blog-card-cont {
+        width: fit-content;
+    }
 }

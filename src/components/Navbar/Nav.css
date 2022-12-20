@@ -43,3 +43,9 @@ i {
         display: none;
     }
 }
+
+@media screen and (max-width: 1209px) {
+    .tabs {
+        display: none;
+    }
+}

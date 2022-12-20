@@ -55,6 +55,18 @@ label {
 }
 
 @media screen and (max-width: 850px) {
+    .f-all-cont {
+        margin: auto;
+    }
+    .footer-cont {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .f-all-cont {
+        margin: auto;
+    }
     .footer-cont {
         grid-template-columns: 1fr;
     }

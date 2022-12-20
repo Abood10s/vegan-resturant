@@ -12,7 +12,7 @@ const AboutComp = ({ title, title2, img, body }) => {
         <div className="abt-txt">
           <p>{body}</p>
         </div>
-        <div>
+        <div className="ab-btn">
           <SecondaryBtn title="Read more" />
         </div>
       </div>

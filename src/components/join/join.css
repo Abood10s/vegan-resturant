@@ -2,13 +2,14 @@
     background-color: rgba(16, 20, 24, 0.7);
     width: 100%;
     margin: 2rem 0;
+    padding: 1rem;
 }
 
 .join-cont {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 90%;
     color: #FFFFFC;
     margin: 0 auto;
 }
@@ -30,19 +31,19 @@
     font-size: 36px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .join-cont {
         width: 100%;
         padding: 1rem;
         gap: 0.5rem;
     }
     .join-txt h3 {
-        font-size: 20px;
-    }
-    .join-p {
         font-size: 18px;
     }
+    .join-p {
+        font-size: 16px;
+    }
     .join-img {
-        width: 20%;
+        width: 33%;
     }
 }
