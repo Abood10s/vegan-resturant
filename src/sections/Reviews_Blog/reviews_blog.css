@@ -1,10 +1,9 @@
 .reviews {
-    width: 1820px;
-    margin-left: -12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5em;
+    gap: 2rem;
+    padding: 0 1rem;
 }
 
 .blog {
@@ -19,6 +18,9 @@
 @media screen and (max-width: 1160px) {
     .blog {
         grid-template-columns: 1fr 1fr;
+    }
+    .reviews {
+        flex-direction: column;
     }
 }
 

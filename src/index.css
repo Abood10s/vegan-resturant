@@ -4,11 +4,12 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    background: url('./assets/body3.png');
+html {
+    background: url('./assets/bodyy.png');
     background-size: cover;
-    object-fit: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 100% 100%;
     overflow-x: hidden;
 }
 
@@ -18,10 +19,8 @@ body {
 
  ::-webkit-scrollbar-track {
     background: #000;
-    ;
 }
 
  ::-webkit-scrollbar-thumb {
     background: #FFCE6D;
-    ;
 }

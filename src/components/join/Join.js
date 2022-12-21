@@ -16,7 +16,7 @@ const join = () => {
             <SecondaryBtn title="Book Table" />
           </div>
         </div>
-        <div>
+        <div className="join-img">
           <img src={golden} alt="" />
         </div>
       </div>

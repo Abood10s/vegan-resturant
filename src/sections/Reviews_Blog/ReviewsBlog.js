@@ -3,6 +3,7 @@ import Reviews from "../../components/Reviews/Reviews";
 import "./reviews_blog.css";
 import guy from "../../assets/guy.png";
 import girl from "../../assets/girl.png";
+
 import BlogCard from "../../components/BlogCard/BlogCard";
 import blog1 from "../../assets/blog images/blog1.png";
 import blog2 from "../../assets/blog images/blog2.png";

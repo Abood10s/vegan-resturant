@@ -44,3 +44,16 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .ket-cont {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .ket-card {
+        font-size: 14px;
+    }
+    .ket-line {
+        width: 90px;
+    }
+}

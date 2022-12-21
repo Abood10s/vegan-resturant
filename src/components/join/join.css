@@ -1,7 +1,7 @@
 .join-all {
     background-color: rgba(16, 20, 24, 0.7);
-    width: 100%;
-    margin: 2rem 0;
+    width: 90%;
+    margin: 2rem auto;
     padding: 1rem;
 }
 
@@ -12,6 +12,11 @@
     width: 90%;
     color: #FFFFFC;
     margin: 0 auto;
+}
+
+.join-img img {
+    width: 100%;
+    height: 100%;
 }
 
 .join-p {
@@ -45,5 +50,21 @@
     }
     .join-img {
         width: 33%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .join-cont {
+        width: 80%;
+        gap: 0.5rem;
+    }
+    .join-txt h3 {
+        font-size: 18px;
+    }
+    .join-p {
+        font-size: 16px;
+    }
+    .join-img {
+        width: 50%;
     }
 }

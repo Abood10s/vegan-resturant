@@ -6,6 +6,8 @@
     padding: 2em 5em;
     gap: 1em;
     margin: 1rem auto;
+    width: 60%;
+    border-bottom: 3px solid #A08040;
 }
 
 .person-cont {
@@ -20,4 +22,10 @@
 
 .rev-txt {
     font-size: 14px;
+}
+
+.avatar img {
+    width: 104px;
+    height: 98px;
+    background-color: transparent;
 }

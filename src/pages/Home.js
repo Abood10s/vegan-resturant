@@ -10,7 +10,7 @@ import Footer from "../sections/Footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Main />
       <About />
       <CardsSection />
@@ -19,7 +19,7 @@ const Home = () => {
       <Header title1="Reviews" title2="words from our food lovers" />
       <Reviews_Blog />
       <Footer />
-    </div>
+    </>
   );
 };
 
