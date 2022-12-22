@@ -1,0 +1,65 @@
+.ham-all-cont {
+    z-index: 900;
+    width: 100%;
+    margin: auto;
+}
+
+.ham-cont {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    padding: 0.5rem;
+    background-color: #A08040;
+    border-radius: 2px;
+}
+
+.ham-cont i {
+    color: white;
+    cursor: pointer;
+}
+
+.ham-tabs {
+    background-color: #A08040;
+    color: white;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ham-tabs>p {
+    transition: all ease 0.2s;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 1rem 0px;
+}
+
+.ham-tabs p:hover {
+    background-color: black;
+    cursor: pointer;
+    transform: translateX(-15px);
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .ham-all-cont {
+        display: block;
+        width: 70%;
+    }
+    .ham-tabs {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ham-all-cont {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .ham-all-cont {
+        display: none;
+    }
+}
